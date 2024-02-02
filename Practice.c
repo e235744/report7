@@ -15,8 +15,8 @@ void setArray(int array[], int size) {
 }
 
 int main() {
-    const int SIZE =5; //定数として配列のサイズを宣言                          
-    int scores[SIZE] = {0, 60, 70, 100, 90,};
+    const int SIZE =6; //定数として配列のサイズを宣言                          
+    int scores[SIZE] = {80, 60, 70, 100, 90, 100};
     //処理コード
     setArray(scores, SIZE);
     for (int i = 0; i < SIZE; i++) {
